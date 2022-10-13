@@ -21,7 +21,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Commissioner&family=Inter:wght@300;400;500;600&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 		<!-- CSS -->
-		<link rel='stylesheet' href='css/swiper-bundle.min.css'>
+		<link rel='stylesheet' crossorigin='anonymous' href='https://www.unpkg.com/swiper/swiper-bundle.min.css'>
 		<link rel="stylesheet" href="css/style.min.css">
 		<!-- Title -->
 		<title>Лазерная эпиляция без боли!</title>
@@ -111,15 +111,15 @@
          <div class="hero__swiper main-swiper swiper">
             <div class="swiper-wrapper">
                <div class="swiper-slide slide">
-                  <img src="img/hero-swiper-img1.png" alt="">
+                  <img src="img/hero-swiper-img1.webp" alt="">
                </div>
                <div class="swiper-slide slide">
-                  <img src="img/hero-swiper-img1.png" alt="">
+                  <img src="img/hero-swiper-img1.webp" alt="">
                </div>
             </div>
             <div class="main-swiper-control">
                <div class="main-swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-               <div class="main-swiper-pagination ">1</div>
+               <div class="hero__swiper-pagination main-swiper-pagination ">1</div>
                <div class="main-swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
             </div>
          </div>
@@ -134,8 +134,8 @@
          <div class="zone__header">
             <h2 class="zone__title title">Зоны</h2>
             <ul class="zone__header-container">
-               <li class="zone__header-item subtitle-big tab-link female active" onclick="openTab(event, 'tabParent-1', 'zone')"><img src="img/female-sign.svg" alt=""><a href="#">Женщины</a></li>
-               <li class="zone__header-item subtitle-big tab-link male" onclick="openTab(event, 'tabParent-2', 'zone')"><img src="img/male-sign.svg" alt=""><a href="#">Мужчина</a>
+               <li class="zone__header-item subtitle-big tab-link female active" onclick="openTab(event, 'tabParent-1', 'zone')"><img src="img/female-sign.svg" alt="">Женщины</li>
+               <li class="zone__header-item subtitle-big tab-link male" onclick="openTab(event, 'tabParent-2', 'zone')"><img src="img/male-sign.svg" alt="">Мужчина
                </li>
             </ul>
          </div>
@@ -155,7 +155,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -173,7 +173,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -191,7 +191,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -209,7 +209,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -231,8 +231,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -240,7 +240,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -258,7 +258,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -276,7 +276,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -294,7 +294,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -316,8 +316,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -325,7 +325,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -343,7 +343,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -361,7 +361,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -379,7 +379,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -401,8 +401,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -410,7 +410,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -428,7 +428,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -446,7 +446,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -464,7 +464,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -486,8 +486,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -495,7 +495,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -513,7 +513,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -531,7 +531,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -549,7 +549,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -571,8 +571,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -580,7 +580,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -598,7 +598,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -616,7 +616,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -634,7 +634,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -656,8 +656,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -665,7 +665,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -683,7 +683,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -701,7 +701,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -719,7 +719,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -741,8 +741,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -750,7 +750,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -768,7 +768,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -786,7 +786,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -804,7 +804,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -826,8 +826,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -849,7 +849,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -867,7 +867,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -885,7 +885,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -903,7 +903,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -925,8 +925,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -934,7 +934,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -952,7 +952,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -970,7 +970,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -988,7 +988,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1010,8 +1010,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -1019,7 +1019,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1037,7 +1037,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1055,7 +1055,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1073,7 +1073,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1095,8 +1095,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -1104,7 +1104,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1122,7 +1122,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1140,7 +1140,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1158,7 +1158,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1180,8 +1180,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -1189,7 +1189,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1207,7 +1207,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1225,7 +1225,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1243,7 +1243,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1265,8 +1265,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -1274,7 +1274,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1292,7 +1292,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1310,7 +1310,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1328,7 +1328,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1350,8 +1350,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -1359,7 +1359,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1377,7 +1377,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1395,7 +1395,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1413,7 +1413,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1435,8 +1435,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -1444,7 +1444,7 @@
                   <div class="zone__tab-swiper swiper">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1462,7 +1462,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1480,7 +1480,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1498,7 +1498,7 @@
                            </div>
                         </div>
                         <div class="swiper-slide slide">
-                           <div class="slide__img"><img src="img/zone-spine.png" alt=""></div>
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
                            <div class="slide__content">
                               <div class="slide__header">
                                  <h4 class="slide__titlet subtitle-big bold">Спина</h4>
@@ -1520,8 +1520,8 @@
                   <div class="zone__tab-content">
                      <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
                      <div class="swiper-buttons">
-                        <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-                        <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
                      </div>
                   </div>
                </div>
@@ -1535,7 +1535,7 @@
       <div class="tech">
          <div class="tech__container">
             <div class="tech__img">
-               <img src="img/tech-img.png" alt="">
+               <img src="img/tech-img.webp" alt="">
             </div>
             <div class="tech__content">
                <h2 class="tech__title title">Технология Moveo</h2>
@@ -1596,8 +1596,8 @@
                </div>
             </div>
             <div class="swiper-buttons">
-               <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-               <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+               <div class="swiper-btn tech-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn tech-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
             </div>
          </div>
       </div>
@@ -1620,38 +1620,38 @@
             <tbody>
                <tr>
                   <td class="compare__text text">Ощущения</td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
                </tr>
                <tr>
                   <td class="compare__text text">Загар до и после</td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
                </tr>
                <tr>
                   <td class="compare__text text">Фитотипы кожи и цвета волос</td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
                </tr>
                <tr>
                   <td class="compare__text text">Анастезия</td>
-                  <td class="compare__table-img"><img src="/img/cons.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/cons.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/cons.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/cons.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/cons.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/cons.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/cons.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/cons.svg" alt=""></td>
                </tr>
                <tr>
                   <td class="compare__text text">Фитотипы кожи и цвета волос</td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
-                  <td class="compare__table-img"><img src="/img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
                </tr>
             </tbody>
             <tfoot>
@@ -1680,35 +1680,35 @@
                   <li class="compare__text text">Фитотипы кожи и цвета волос</li>
                </ul>
                <div class="compare__item active" id="compareTab-1">
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/cons.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/cons.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
                   <a href="#" class="compare__item-btn btn-bold">Записаться</a>
                </div>
                <div class="compare__item" id="compareTab-2">
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/cons.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/cons.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
                   <a href="#" class="compare__item-btn btn-bold">Записаться</a>
                </div>
                <div class="compare__item" id="compareTab-3">
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/cons.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/cons.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
                   <a href="#" class="compare__item-btn btn-bold">Записаться</a>
                </div>
                <div class="compare__item" id="compareTab-4">
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/cons.svg" alt=""></div>
-                  <div class="compare__item-mark"><img src="/img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/cons.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
                   <a href="#" class="compare__item-btn btn-bold">Записаться</a>
                </div>
             </div>
@@ -1723,8 +1723,8 @@
             <h2 class="safe__title title">Самая быстрая 
                и безопасная</h2>
                <ul class="zone__header-container">
-                  <li class="zone__header-item tab-link female active" onclick="openTab(event, 'tabParent-3', 'safe')"><img src="img/female-sign.svg" alt=""><a href="#">Женщины</a></li>
-                  <li class="zone__header-item tab-link male" onclick="openTab(event, 'tabParent-4', 'safe')"><img src="img/male-sign.svg" alt=""><a href="#">Мужчина</a>
+                  <li class="zone__header-item subtitle-big tab-link female active" onclick="openTab(event, 'tabParent-3', 'safe')"><img src="img/female-sign.svg" alt=""><span>Женщины</span> </li>
+                  <li class="zone__header-item subtitle-big tab-link male" onclick="openTab(event, 'tabParent-4', 'safe')"><img src="img/male-sign.svg" alt=""><span>Мужчина</span>
                   </li>
                </ul>
          </div>
@@ -1873,10 +1873,10 @@
          <div class="award__swiper main-swiper swiper">
             <div class="swiper-wrapper">
                <div class="swiper-slide slide">
-                  <img src="img/award-img.png" alt="">
+                  <img src="img/award-img.webp" alt="">
                </div>
                <div class="swiper-slide slide">
-                  <img src="img/award-img.png" alt="">
+                  <img src="img/award-img.webp" alt="">
                </div>
             </div>
             <div class="main-swiper-control">
@@ -1895,7 +1895,7 @@
          <div class="specialist__swiper swiper">
             <div class="swiper-wrapper">
                <div class="swiper-slide slide">
-                  <div class="slide__img"><img src="img/specialist-img.png" alt=""></div>
+                  <div class="slide__img"><img src="img/specialist-img.webp" alt=""></div>
                   <div class="slide__content">
                      <h4 class="slide__title subtitle-big bold">Захарченко Марина</h4>
                      <div class="slide__location">
@@ -1916,7 +1916,7 @@
                   </div>
                </div>
                <div class="swiper-slide slide">
-                  <div class="slide__img"><img src="img/specialist-img.png" alt=""></div>
+                  <div class="slide__img"><img src="img/specialist-img.webp" alt=""></div>
                   <div class="slide__content">
                      <h4 class="slide__title subtitle-big bold">Захарченко Марина</h4>
                      <div class="slide__location">
@@ -1937,7 +1937,7 @@
                   </div>
                </div>
                <div class="swiper-slide slide">
-                  <div class="slide__img"><img src="img/specialist-img.png" alt=""></div>
+                  <div class="slide__img"><img src="img/specialist-img.webp" alt=""></div>
                   <div class="slide__content">
                      <h4 class="slide__title subtitle-big bold">Захарченко Марина</h4>
                      <div class="slide__location">
@@ -1958,7 +1958,7 @@
                   </div>
                </div>
                <div class="swiper-slide slide">
-                  <div class="slide__img"><img src="img/specialist-img.png" alt=""></div>
+                  <div class="slide__img"><img src="img/specialist-img.webp" alt=""></div>
                   <div class="slide__content">
                      <h4 class="slide__title subtitle-big bold">Захарченко Марина</h4>
                      <div class="slide__location">
@@ -1979,7 +1979,7 @@
                   </div>
                </div>
                <div class="swiper-slide slide">
-                  <div class="slide__img"><img src="img/specialist-img.png" alt=""></div>
+                  <div class="slide__img"><img src="img/specialist-img.webp" alt=""></div>
                   <div class="slide__content">
                      <h4 class="slide__title subtitle-big bold">Захарченко Марина</h4>
                      <div class="slide__location">
@@ -2004,8 +2004,8 @@
          <div class="specialist__content">
             <a href="#" class="specialist__btn btn-light">Все специалисты <img src="img/btn-arrow.svg" alt=""></a>
             <div class="swiper-buttons">
-               <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-               <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+               <div class="swiper-btn specialist-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn specialist-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
             </div>
          </div>
       </div>
@@ -2020,8 +2020,8 @@
                <h2 class="reviews__title title">Google отзывы</h2>
             </div>
             <div class="swiper-buttons">
-               <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-               <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+               <div class="swiper-btn reviews-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn reviews-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
             </div>
          </div>
          <div class="reviews__swiper reviews__swiper-google swiper">
@@ -2092,23 +2092,23 @@
                <h2 class="reviews__title title">Видео отзывы</h2>
             </div>
             <div class="swiper-buttons">
-               <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-               <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+               <div class="swiper-btn reviews-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn reviews-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
             </div>
          </div>
          <div class="reviews__swiper reviews__swiper-youtube swiper">
             <div class="swiper-wrapper">
                <div class="swiper-slide slide">
-                  <img src="img/video-swiper-img.png" alt="">
+                  <img src="img/video-swiper-img.webp" alt="">
                </div>
                <div class="swiper-slide slide">
-                  <img src="img/video-swiper-img.png" alt="">
+                  <img src="img/video-swiper-img.webp" alt="">
                </div>
                <div class="swiper-slide slide">
-                  <img src="img/video-swiper-img.png" alt="">
+                  <img src="img/video-swiper-img.webp" alt="">
                </div>
                <div class="swiper-slide slide">
-                  <img src="img/video-swiper-img.png" alt="">
+                  <img src="img/video-swiper-img.webp" alt="">
                </div>
             </div>
          </div>
@@ -2122,7 +2122,7 @@
    <div class="container">
       <div class="gallery">
          <div class="gallery__img">
-            <img src="img/gallery-img.png" alt="">
+            <img src="img/gallery-img.webp" alt="">
          </div>
          <div class="gallery__content">
             <h2 class="gallery__title title">Галлерея</h2>
@@ -2152,7 +2152,7 @@
             <div class="swiper-wrapper">
                <div class="swiper-slide slide">
                   <div class="slide__img">
-                     <img src="img/stocks-swiper-img.png" alt="">
+                     <img src="img/stocks-swiper-img.webp" alt="">
                   </div>
                   <div class="slide__content">
                      <h4 class="slide__title">Скидка на первичное посещение – 50%</h4>
@@ -2160,7 +2160,7 @@
                </div>
                <div class="swiper-slide slide">
                   <div class="slide__img">
-                     <img src="img/stocks-swiper-img.png" alt="">
+                     <img src="img/stocks-swiper-img.webp" alt="">
                   </div>
                   <div class="slide__content">
                      <h4 class="slide__title">Скидка на первичное посещение – 50%</h4>
@@ -2168,7 +2168,7 @@
                </div>
                <div class="swiper-slide slide">
                   <div class="slide__img">
-                     <img src="img/stocks-swiper-img.png" alt="">
+                     <img src="img/stocks-swiper-img.webp" alt="">
                   </div>
                   <div class="slide__content">
                      <h4 class="slide__title">Скидка на первичное посещение – 50%</h4>
@@ -2180,8 +2180,8 @@
             <a href="#" class="stocks__btn btn-light">Все акции <img src="img/btn-arrow.svg" alt=""></a>
             <div class="swiper-pagination"></div>
             <div class="swiper-buttons">
-               <div class="swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
-               <div class="swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+               <div class="swiper-btn stocks-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn stocks-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
             </div>
          </div>
       </div>
@@ -2501,7 +2501,7 @@
       </div>
    </div>
 </footer>
-	<script src='js/swiper-bundle.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js' integrity='sha512-hNnjFWCqifslGhuZJVHjXdBund00oDV71mBacLyZYVwmuf+Lx+MGgoG04wehsvhp6FvLYfycrES+b1yh24yvhg==' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
 <script src="js/main.min.js"></script>
 
 </body>
