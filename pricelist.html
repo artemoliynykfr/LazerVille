@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<!-- Meta -->
+		<meta charset='UTF-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta name='apple-mobile-web-app-capable' content='yes'>
+		<meta content='yes' name='apple-touch-fullscreen' />
+		<meta name='apple-mobile-web-app-status-bar-style' content='black'>
+		<meta name='mssmarttagspreventparsing' content='true'>
+		<meta name='yandex-verification' content='38ffc5af88a5d596'>
+		<meta name='google-site-verification' content='8porN1DgQJZZs7RTNJO_O0OTJG6d3swz6xW0bXPfXVc'>
+		<meta name='robots' content='index, follow'>
+		<meta name='author' content='Oliynyk Artem'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Commissioner&family=Inter:wght@300;400;500;600&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+		<!-- CSS -->
+		<link rel='stylesheet' crossorigin='anonymous' href='https://www.unpkg.com/swiper/swiper-bundle.min.css'>
+		<link rel="stylesheet" href="css/style.min.css">
+		<!-- Title -->
+		<title>Лазерная эпиляция без боли!</title>
+	</head>
+
+<body>
+	<header>
+		<nav>
+  <div class="container">
+    <div class="nav">
+      <div class="nav__top">
+        <a href="index.html" class="nav__logo"><img src="img/logo.svg" alt=""></a>
+        <div class="nav__location modal-btn">
+          <img src="img/location.svg" alt="">
+          <p class="nav__top-text link">Украина </p>
+          <img src="img/location-mob.svg" class="nav__location-mobile" alt="">
+        </div>
+        <div class="nav__work">
+          <h4 class="nav__top-text link nav__work-title">Наши салоны</h4>
+          <p class="nav__work-text text-big">Пн-Вс с 9.00 до 21.00</p>
+        </div>
+        <div class="nav__top-link modal-btn link"><img src="img/phone-mob.svg" alt=""><span>Заказать звонок</span> </div>
+        <a href="online.html" class="nav__top-btn btn-bold">Онлайн-запись</a>
+        <div class='nav__top-select select'>
+          <select>
+            <option value='0'>Ru</option>
+            <option value='1'>Ru</option>
+            <option value='2'>Укр</option>
+            <option value='3'>Eng</option>
+          </select>
+        </div>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      <div class="nav__menu">
+        <a href="online.html" class="nav__top-btn btn-bold nav__menu-btn">Онлайн-запись</a>
+        <ul class="nav__menu-list">
+          <li class="nav__list-item subtitle"><a href="pricelist.html">Услуги и цены</a></li>
+          <li class="nav__list-item subtitle"><a href="service.html">О нас</a></li>
+          <li class="nav__list-item subtitle"><a href="specialist.html">Специалисты</a></li>
+          <li class="nav__list-item subtitle"><a href="#">Сертификаты</a></li>
+          <li class="nav__list-item subtitle"><a href="reviews.html">Отзывы</a></li>
+          <li class="nav__list-item subtitle"><a href="discounts.html">Акции</a></li>
+          <li class="nav__list-item subtitle"><a href="#">Статьи</a></li>
+          <li class="nav__list-item subtitle"><a href="gallery.html">Франшиза</a></li>
+          <li class="nav__list-item subtitle"><a href="contact.html">Контакты</a></li>
+          <li class="nav__list-item subtitle"><a href="#">Магазин</a></li>
+        </ul>
+        <div class="nav__menu-lang">
+          <a href="#" class="nav__lang-item subtitle active">Рус</a>
+          <a href="#" class="nav__lang-item subtitle">Укр</a>
+          <a href="#" class="nav__lang-item subtitle">Eng</a>
+          <a href="#" class="nav__lang-item subtitle">Eng</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="modal__wrapper" id="modalNav">
+  <div class="modal">
+    <div class="modal__close"><img src="img/modal-close.svg" alt=""></div>
+    <h2 class="modal__title title-big">Ваше местоположение</h2>
+    <div class="modal__content">
+      <p class="modal__text subtitle">Страна:</p>
+      <div class='modal__select select'>
+         <select>
+            <option value='0'>Украина</option>
+            <option value='1'>Украина</option>
+            <option value='2'>Украина</option>
+         </select>
+      </div>
+    </div>
+    <a href="#" class="modal__btn btn-bold">Сохранить</a>
+  </div>
+</div>
+<div class="modal__wrapper" id="modalTel">
+  <div class="modal">
+    <div class="modal__close"><img src="img/modal-close.svg" alt=""></div>
+    <h2 class="modal__title title-big">Заказать звонок</h2>
+    <form action="#" class="modal__form">
+      <input type="tel" class="modal__form-input text" placeholder="+38 (000) 000 00 00">
+      <button type="submit" class="modal__form-btn btn-bold">Заказать звонок</button>
+    </form>
+  </div>
+</div>
+<div class="modal__wrapper" id="modalRegister">
+  <div class="modal">
+    <div class="modal__close"><img src="img/modal-close.svg" alt=""></div>
+    <h2 class="modal__title title-big">Записаться</h2>
+    <form action="#" class="modal__form">
+      <div class="specialist__location">
+        <img src="img/location-light.svg" alt="">
+        <p class="specialist__location-text text">Локация:</p>
+        <div class='specialist__select select'>
+           <select>
+              <option value='0'>Все салоны</option>
+              <option value='1'>Все салоны</option>
+              <option value='2'>Все салоны</option>
+           </select>
+        </div>
+     </div>
+      <input type="text" class="modal__form-input text" placeholder="Имя">
+      <input type="tel" class="modal__form-input text" placeholder="+38 (000) 000 00 00">
+      <button type="submit" class="modal__form-btn btn-bold">Заказать звонок</button>
+    </form>
+  </div>
+</div>
+	</header>
+	<main class="main">
+		<section class="section section__zone section__zone-price">
+   <div class="container">
+      <div class="zone" id="zone">
+         <h2 class="zone__title title">Услуги и цены</h2>
+         <div class="zone__header">
+            <h2 class="zone__subtitle title-big">Популярные услуги</h2>
+            <div class="swiper-buttons">
+               <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+            </div>
+         </div>
+         <div class="zone__tab-item active">
+            <div class="zone__tab-swiper swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide slide">
+                     <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                     <div class="slide__content">
+                        <div class="slide__header">
+                           <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                           <div class="slide__time">
+                              <img src="img/clock.svg" alt="">
+                              <p class="slide__subtext subtext">30 мин.</p>
+                           </div>
+                        </div>
+                        <div class="slide__price">
+                           <p class="slide__text subtitle-big">200 грн.</p>
+                           <a href="#" class="slide__btn btn-arrow">
+                              <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide slide">
+                     <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                     <div class="slide__content">
+                        <div class="slide__header">
+                           <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                           <div class="slide__time">
+                              <img src="img/clock.svg" alt="">
+                              <p class="slide__subtext subtext">30 мин.</p>
+                           </div>
+                        </div>
+                        <div class="slide__price">
+                           <p class="slide__text subtitle-big">200 грн.</p>
+                           <a href="#" class="slide__btn btn-arrow">
+                              <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide slide">
+                     <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                     <div class="slide__content">
+                        <div class="slide__header">
+                           <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                           <div class="slide__time">
+                              <img src="img/clock.svg" alt="">
+                              <p class="slide__subtext subtext">30 мин.</p>
+                           </div>
+                        </div>
+                        <div class="slide__price">
+                           <p class="slide__text subtitle-big">200 грн.</p>
+                           <a href="#" class="slide__btn btn-arrow">
+                              <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide slide">
+                     <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                     <div class="slide__content">
+                        <div class="slide__header">
+                           <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                           <div class="slide__time">
+                              <img src="img/clock.svg" alt="">
+                              <p class="slide__subtext subtext">30 мин.</p>
+                           </div>
+                        </div>
+                        <div class="slide__price">
+                           <p class="slide__text subtitle-big">200 грн.</p>
+                           <a href="#" class="slide__btn btn-arrow">
+                              <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide slide">
+                     <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                     <div class="slide__content">
+                        <div class="slide__header">
+                           <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                           <div class="slide__time">
+                              <img src="img/clock.svg" alt="">
+                              <p class="slide__subtext subtext">30 мин.</p>
+                           </div>
+                        </div>
+                        <div class="slide__price">
+                           <p class="slide__text subtitle-big">200 грн.</p>
+                           <a href="#" class="slide__btn btn-arrow">
+                              <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__price">
+   <div class="container">
+      <div class="price" id="price">
+         <ul class="zone__header-container">
+            <li class="zone__header-item subtitle-big tab-link female active"
+               onclick="openTab(event, 'tabParent-1', 'price')"><img src="img/female-sign.svg"
+                  alt=""><span>Женщины</span> </li>
+            <li class="zone__header-item subtitle-big tab-link male" onclick="openTab(event, 'tabParent-2', 'price')">
+               <img src="img/male-sign.svg" alt=""><span>Мужчина</span>
+            </li>
+         </ul>
+         <div class="price__items tab-item active" id="tabParent-1">
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-hands.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Руки</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-bikini.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Бикини</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-legs.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Ноги</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-face.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Лицо</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-spine.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Спина и грудь</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-hands.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Комплекс услуг</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Все тело</span>
+                              </label>
+                              <p class="price__table-subtext text">Лицо (над верхней губой, подбородок, виски и щеки, контур бровей, лоб, межбровья), Шея, Подмышечные области, Руки полностью (плечи, локти, руки до локтей, пальцы рук), Ареолы, Белая линия живота, Глубокое бикини (по линии белья, половые губы, межягодичная складка), Ягодицы, Поясница, Ноги полностью (голени и колени, стопы и пальцы, внутренняя часть бедер, бедра)</p>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Важные зоны</span>
+                              </label>
+                              <p class="price__table-subtext text">Подмышечные области, руки до локтей, глубокое бикини, ноги полностью</p>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Лицо</span>
+                              </label>
+                              <p class="price__table-subtext text">Над верхней губой, подбородок, виски и щеки, контур бровей, лоб, межбровья</p>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Ноги полностью</span>
+                              </label>
+                              <p class="price__table-subtext text">Голени и колени, стопы и пальцы, внутренняя часть бедер, бедра</p>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div class="price__items tab-item" id="tabParent-2">
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-hands.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Руки</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-bikini.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Бикини</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-legs.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Ноги</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-face.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Лицо</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-spine.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Спина и грудь</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Подмышечные впадины</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Руки до локтей</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Руки полностью</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">990 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Кисти рук и пальцы</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">270 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-5">
+                                 <span class="link">Плечи (верхняя часть рук, от локтей)</span>
+                              </label>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="price__item">
+               <div class="price__item-img">
+                  <img src="img/price-hands.webp" alt="">
+               </div>
+               <div class="price__item-content">
+                  <h4 class="price__item-title title-big">Комплекс услуг</h4>
+                  <table class="price__item-table">
+                     <thead>
+                        <tr>
+                           <th class="price__table-header subtitle">Зона</th>
+                           <th class="price__table-header subtitle">Цена</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-1">
+                                 <span class="link">Все тело</span>
+                              </label>
+                              <p class="price__table-subtext text">Лицо (над верхней губой, подбородок, виски и щеки, контур бровей, лоб, межбровья), Шея, Подмышечные области, Руки полностью (плечи, локти, руки до локтей, пальцы рук), Ареолы, Белая линия живота, Глубокое бикини (по линии белья, половые губы, межягодичная складка), Ягодицы, Поясница, Ноги полностью (голени и колени, стопы и пальцы, внутренняя часть бедер, бедра)</p>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-2">
+                                 <span class="link">Важные зоны</span>
+                              </label>
+                              <p class="price__table-subtext text">Подмышечные области, руки до локтей, глубокое бикини, ноги полностью</p>
+                           </td>
+                           <td class="price__table-text text-big">725 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-3">
+                                 <span class="link">Лицо</span>
+                              </label>
+                              <p class="price__table-subtext text">Над верхней губой, подбородок, виски и щеки, контур бровей, лоб, межбровья</p>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <label class="price__table-checkbox custom-checkbox">
+                                 <input type="checkbox" value="value-4">
+                                 <span class="link">Ноги полностью</span>
+                              </label>
+                              <p class="price__table-subtext text">Голени и колени, стопы и пальцы, внутренняя часть бедер, бедра</p>
+                           </td>
+                           <td class="price__table-text text-big">490 грн.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="price__fixed">
+      <div class="container">
+         <div class="price__content">
+            <div class="price__price">
+               <h4 class="price__price-subtitle subtitle">Итого:</h4>
+               <h3 class="price__price-title subtitle-small">1500 грн.</h3>
+            </div>
+            <form action="#" class="price__form">
+               <input type="text" class="price__form-input text" placeholder="Имя">
+               <input type="tel" class="price__form-input text" placeholder="+38 (000) 000 00 00">
+               <button type="submit" class="price__form-btn btn-bold">Записаться</button>
+            </form>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="section section__questions">
+   <div class="container">
+      <div class="questions">
+         <h2 class="questions__title title">Часто задаваемые вопросы</h2>
+         <div class="questions__accordion accordion">
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="section section__about section__about-contact">
+   <div class="container">
+      <div class="about">
+         <div class="about__item">
+            <h2 class="about__title title">Сео текст</h2>
+            <p class="about__text text-big">В сети центров лазерной эпиляции LaserVille работают на лазерном
+               оборудовании премиум класса от итальянской компании DEKA – MOTUS AX. Аппаратура позволяет избавиться от
+               нежелательных волос максимально быстро и безболезненно. Эффект вы увидите уже после первой процедуры.
+            </p>
+            <p class="about__text text-big">Качество оборудования подтверждается сертификатами. Стоит отметить, что
+               производитель лазерного оборудования для сети центров LaserVille – компания DEKA. Это лидер отрасли,
+               который более 40 лет производит не только аппараты для лазерной эпиляции, но и медицинское оборудование
+               для оперативных вмешательств (для гинекологии, стоматологии, урологии, дерматологии, косметологии).</p>
+            <p class="about__text text-big">Чтобы обеспечивать высокий уровень работы лазерной установки в сети
+               LaserVille, мы регулярно проводим ее техническое обслуживание – специалисты DEKA заменяют лампы, линзы и
+               при необходимости другие элементы. С графиком замен вы можете ознакомиться во всех наших салонах. Это
+               один из показателей, который объясняет, почему цена на лазерное удаление волос не может быть низкой.</p>
+         </div>
+         <div class="about__item">
+            <h2 class="about__title title">Сертифицированное оборудование</h2>
+            <div id="more">
+               <p class="about__text text-big">В сети центров лазерной эпиляции LaserVille работают на лазерном
+                  оборудовании премиум класса от итальянской компании DEKA – MOTUS AX. Аппаратура позволяет избавиться
+                  от нежелательных волос максимально быстро и безболезненно. Эффект вы увидите уже после первой
+                  процедуры. </p>
+               <p class="about__text text-big">Качество оборудования подтверждается сертификатами. Стоит отметить, что
+                  производитель лазерного оборудования для сети центров LaserVille – компания DEKA. Это лидер отрасли,
+                  который более 40 лет производит не только аппараты для лазерной эпиляции, но и медицинское
+                  оборудование для оперативных вмешательств (для гинекологии, стоматологии, урологии, дерматологии,
+                  косметологии).</p>
+               <p class="about__text text-big">Чтобы обеспечивать высокий уровень работы лазерной установки в сети
+                  LaserVille, мы регулярно проводим ее техническое обслуживание – специалисты DEKA заменяют лампы, линзы
+                  и при необходимости другие элементы. С графиком замен вы можете ознакомиться во всех наших салонах.
+                  Это один из показателей, который объясняет, почему цена на лазерное удаление волос не может быть
+                  низкой.</p>
+            </div>
+         </div>
+         <div class="link" id="moreBtn">Показать больше</div>
+      </div>
+   </div>
+</section>
+   </main>	
+	<footer>
+   <div class="container">
+      <div class="footer">
+         <div class="footer__content">
+            <div class="footer__logo"><img src="img/logo.svg" alt=""></div>
+            <ul class="footer__icons">
+               <li><a href="#" class="footer__icon"><img src="img/instagram.svg" alt=""></a></li>
+               <li><a href="#" class="footer__icon"><img src="img/facebook.svg" alt=""></a></li>
+               <li><a href="#" class="footer__icon"><img src="img/contact-youtube.svg" alt=""></a></li>
+               <li><a href="#" class="footer__icon"><img src="img/telegram.svg" alt=""></a></li>
+            </ul>
+         </div>
+         <div class="footer__menu">
+            <ul class="footer__list">
+               <li><a href="#" class="footer__list-link subtitle">Услуги и цены</a></li>
+               <li><a href="#" class="footer__list-link subtitle">О нас</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Специалисты</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Сертификаты</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Отзывы</a></li>
+            </ul>
+            <ul class="footer__list">
+               <li><a href="#" class="footer__list-link subtitle">Акции</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Статьи</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Франшиза</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Контакты</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Магазин</a></li>
+            </ul>
+         </div>
+         <div class="footer__contact">
+            <div class="footer__contact-content">
+               <h4 class="footer__title text-big">Наши салоны</h4>
+               <div class='footer__select select'>
+                  <select>
+                     <option value='0'>Пн-Вс с 9.00 до 21.00</option>
+                     <option value='1'>Пн-Вс с 9.00 до 21.00</option>
+                     <option value='2'>Пн-Вс с 9.00 до 21.00</option>
+                  </select>
+               </div>
+               <a href="#" class="footer__link link">Заказать звонок</a>
+            </div>
+            <a href="#" class="footer__link link"><img src="img/footer-telegram.svg" alt="">Запись в телеграм-боте</a>
+            <a href="#" class="footer__link link"><img src="img/point.svg" alt="">Онлайн-запись</a>
+         </div>
+         <div class="footer__contact-mob">
+            <a href="#" class="footer__link link"><img src="img/footer-telegram.svg" alt="">Запись в телеграм-боте</a>
+            <a href="#" class="footer__link link"><img src="img/point.svg" alt="">Онлайн-запись</a>
+         </div>
+      </div>
+   </div>
+</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js' integrity='sha512-hNnjFWCqifslGhuZJVHjXdBund00oDV71mBacLyZYVwmuf+Lx+MGgoG04wehsvhp6FvLYfycrES+b1yh24yvhg==' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>

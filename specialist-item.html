@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<!-- Meta -->
+		<meta charset='UTF-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta name='apple-mobile-web-app-capable' content='yes'>
+		<meta content='yes' name='apple-touch-fullscreen' />
+		<meta name='apple-mobile-web-app-status-bar-style' content='black'>
+		<meta name='mssmarttagspreventparsing' content='true'>
+		<meta name='yandex-verification' content='38ffc5af88a5d596'>
+		<meta name='google-site-verification' content='8porN1DgQJZZs7RTNJO_O0OTJG6d3swz6xW0bXPfXVc'>
+		<meta name='robots' content='index, follow'>
+		<meta name='author' content='Oliynyk Artem'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Commissioner&family=Inter:wght@300;400;500;600&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+		<!-- CSS -->
+		<link rel='stylesheet' crossorigin='anonymous' href='https://www.unpkg.com/swiper/swiper-bundle.min.css'>
+		<link rel="stylesheet" href="css/style.min.css">
+		<!-- Title -->
+		<title>Лазерная эпиляция без боли!</title>
+	</head>
+
+<body>
+	<header>
+		<nav>
+  <div class="container">
+    <div class="nav">
+      <div class="nav__top">
+        <a href="index.html" class="nav__logo"><img src="img/logo.svg" alt=""></a>
+        <div class="nav__location modal-btn">
+          <img src="img/location.svg" alt="">
+          <p class="nav__top-text link">Украина </p>
+          <img src="img/location-mob.svg" class="nav__location-mobile" alt="">
+        </div>
+        <div class="nav__work">
+          <h4 class="nav__top-text link nav__work-title">Наши салоны</h4>
+          <p class="nav__work-text text-big">Пн-Вс с 9.00 до 21.00</p>
+        </div>
+        <div class="nav__top-link modal-btn link"><img src="img/phone-mob.svg" alt=""><span>Заказать звонок</span> </div>
+        <a href="online.html" class="nav__top-btn btn-bold">Онлайн-запись</a>
+        <div class='nav__top-select select'>
+          <select>
+            <option value='0'>Ru</option>
+            <option value='1'>Ru</option>
+            <option value='2'>Укр</option>
+            <option value='3'>Eng</option>
+          </select>
+        </div>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      <div class="nav__menu">
+        <a href="online.html" class="nav__top-btn btn-bold nav__menu-btn">Онлайн-запись</a>
+        <ul class="nav__menu-list">
+          <li class="nav__list-item subtitle"><a href="pricelist.html">Услуги и цены</a></li>
+          <li class="nav__list-item subtitle"><a href="service.html">О нас</a></li>
+          <li class="nav__list-item subtitle"><a href="specialist.html">Специалисты</a></li>
+          <li class="nav__list-item subtitle"><a href="#">Сертификаты</a></li>
+          <li class="nav__list-item subtitle"><a href="reviews.html">Отзывы</a></li>
+          <li class="nav__list-item subtitle"><a href="discounts.html">Акции</a></li>
+          <li class="nav__list-item subtitle"><a href="#">Статьи</a></li>
+          <li class="nav__list-item subtitle"><a href="gallery.html">Франшиза</a></li>
+          <li class="nav__list-item subtitle"><a href="contact.html">Контакты</a></li>
+          <li class="nav__list-item subtitle"><a href="#">Магазин</a></li>
+        </ul>
+        <div class="nav__menu-lang">
+          <a href="#" class="nav__lang-item subtitle active">Рус</a>
+          <a href="#" class="nav__lang-item subtitle">Укр</a>
+          <a href="#" class="nav__lang-item subtitle">Eng</a>
+          <a href="#" class="nav__lang-item subtitle">Eng</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="modal__wrapper" id="modalNav">
+  <div class="modal">
+    <div class="modal__close"><img src="img/modal-close.svg" alt=""></div>
+    <h2 class="modal__title title-big">Ваше местоположение</h2>
+    <div class="modal__content">
+      <p class="modal__text subtitle">Страна:</p>
+      <div class='modal__select select'>
+         <select>
+            <option value='0'>Украина</option>
+            <option value='1'>Украина</option>
+            <option value='2'>Украина</option>
+         </select>
+      </div>
+    </div>
+    <a href="#" class="modal__btn btn-bold">Сохранить</a>
+  </div>
+</div>
+<div class="modal__wrapper" id="modalTel">
+  <div class="modal">
+    <div class="modal__close"><img src="img/modal-close.svg" alt=""></div>
+    <h2 class="modal__title title-big">Заказать звонок</h2>
+    <form action="#" class="modal__form">
+      <input type="tel" class="modal__form-input text" placeholder="+38 (000) 000 00 00">
+      <button type="submit" class="modal__form-btn btn-bold">Заказать звонок</button>
+    </form>
+  </div>
+</div>
+<div class="modal__wrapper" id="modalRegister">
+  <div class="modal">
+    <div class="modal__close"><img src="img/modal-close.svg" alt=""></div>
+    <h2 class="modal__title title-big">Записаться</h2>
+    <form action="#" class="modal__form">
+      <div class="specialist__location">
+        <img src="img/location-light.svg" alt="">
+        <p class="specialist__location-text text">Локация:</p>
+        <div class='specialist__select select'>
+           <select>
+              <option value='0'>Все салоны</option>
+              <option value='1'>Все салоны</option>
+              <option value='2'>Все салоны</option>
+           </select>
+        </div>
+     </div>
+      <input type="text" class="modal__form-input text" placeholder="Имя">
+      <input type="tel" class="modal__form-input text" placeholder="+38 (000) 000 00 00">
+      <button type="submit" class="modal__form-btn btn-bold">Заказать звонок</button>
+    </form>
+  </div>
+</div>
+	</header>
+	<main class="main">
+		<section class="section section__info">
+   <div class="container">
+      <ul class="breadcrumps">
+         <li><a href="#" class="breadcrumps__link text">Главная</a></li>
+         <li><a href="#" class="breadcrumps__link text">Наши специалисты</a></li>
+      </ul>
+      <div class="info">
+         <div class="info__img">
+            <img src="img/specialist-info-img.webp" alt="">
+         </div>
+         <div class="info__content">
+            <h2 class="info__title title">Захарченко Марина Сергеевна</h2>
+            <div class="info__content-block">
+               <p class="info__subtitle subtitle-big">Специалист по лазерной эпиляции</p>
+               <p class="info__subtitle subtitle-big">2 года</p>
+            </div>
+            <div class="info__content-items">
+               <div class="info__content-item">
+                  <h4 class="info__item-title subtitle-big">Профессиональные навыки:</h4>
+                  <ul class="info__item-list">
+                     <li class="info__list-text subtext-big">Курс лазерной эпиляции от итальянской компации DEKA на аппарате MOTUS AX – александритовый лазер</li>
+                     <li class="info__list-text subtext-big">Курс лазерной динамической эпиляции от итальянской компании DEKA на аппарате MOTUS AX – александритовый лазер по технологии MOVEO</li>
+                     <li class="info__list-text subtext-big">Курс лазерной эпиляции на аппарате DL 5000 – диодный лазер</li>
+                  </ul>
+               </div>
+               <div class="info__content-item">
+                  <h4 class="info__item-title subtitle-big ">Дополнительное образование:</h4>
+                  <ul class="info__item-list">
+                     <li class="info__list-text subtext-big">Курс лазерной эпиляции от итальянской компации DEKA на аппарате MOTUS AX – александритовый лазер</li>
+                     <li class="info__list-text subtext-big">Курс лазерной динамической эпиляции от итальянской компании DEKA на аппарате MOTUS AX – александритовый лазер по технологии MOVEO</li>
+                     <li class="info__list-text subtext-big">Курс лазерной эпиляции на аппарате DL 5000 – диодный лазер</li>
+                  </ul>
+               </div>
+            </div>
+            <a href="#" class="info__btn btn-bold modal-btn">Записаться</a>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="section section__contact section__contact-specialist">
+   <div class="container">
+      <div class="contact">
+         <div class="contact__content">
+            <h2 class="contact__title title">Салон</h2>
+            <div class="contact__item">
+               <div class="contact__item-location">
+                  <p class="contact__item-text contact__text text">Киев </p>
+                  <p class="contact__item-text contact__text text">ул. Вадима Гетьмана, 30 </p>
+               </div>
+               <div class="contact__item-metro">
+                  <img src="img/metro-red.svg" alt="">
+                  <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+               </div>
+               <p class="contact__item-subtext text-big">050 756 36 02</p>
+               <ul class="contact__icons">
+                  <li><a href="#" class="contact__icon"><img src="img/viber.svg" alt=""></a></li>
+                  <li><a href="#" class="contact__icon"><img src="img/telegram.svg" alt=""></a></li>
+                  <li><a href="#" class="contact__icon"><img src="img/whatsapp.svg" alt=""></a></li>
+                  <li><a href="#" class="contact__icon"><img src="img/messenger.svg" alt=""></a></li>
+               </ul>
+            </div>
+            <a href="#" class="contact__btn btn-bold">Записаться</a>
+         </div>
+         <div class="contact__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.7983125632804!2d30.43936715148573!3d50.44485729554791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc223bcaf929%3A0xd97a3150ae93c9d2!2z0YPQuy4g0JLQsNC00LjQvNCwINCT0LXRgtGM0LzQsNC90LAsIDMwLCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1665681365411!5m2!1sru!2sua" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="section section__comments">
+   <div class="container">
+      <div class="comments">
+         <div class="comments__header">
+            <h2 class="comments__title title">Отзывы о специалисте</h2>
+            <div class="comments__btn btn-light modal-btn">Написать отзыв</div>
+         </div>
+         <div class="comments__items">
+            <div class="comments__item">
+               <div class="comments__item-info">
+                  <h4 class="comments__item-title text-big">Алиса Шакуро</h4>
+                  <p class="comments__item-time text-big">19.10.2021 14:43</p>
+               </div>
+               <div class="comments__item-rate"><img src="img/star-rate.svg" alt=""></div>
+               <p class="comments__item-text subtext-big">Все супер! Це вже 3 процедура – результат радує☺☺☺ ( мастер Марина)</p>
+               <a href="#" class="comments__item-link link">Ответить</a>
+            </div>
+            <div class="comments__item admin">
+               <div class="comments__item-info">
+                  <h4 class="comments__item-title text-big">Администратор</h4>
+                  <p class="comments__item-time text-big">19.10.2021 14:43</p>
+               </div>
+               <div class="comments__item-rate"><img src="img/star-rate.svg" alt=""></div>
+               <p class="comments__item-text subtext-big">Спасибо за Ваш отзыв)</p>
+               <a href="#" class="comments__item-link link">Ответить</a>
+            </div>
+            <div class="comments__item">
+               <div class="comments__item-info">
+                  <h4 class="comments__item-title text-big">Алиса Шакуро</h4>
+                  <p class="comments__item-time text-big">19.10.2021 14:43</p>
+               </div>
+               <div class="comments__item-rate"><img src="img/star-rate.svg" alt=""></div>
+               <p class="comments__item-text subtext-big">Очень все понравилось! Администратор и мастер по лазеру очень внимательны! Впервые мне было совсем не больно! Насадка moveo нечто!
+                  Наконец-то эпиляция может быть безболезненной! Рекомендую!
+                  Роскошно</p>
+               <a href="#" class="comments__item-link link">Ответить</a>
+            </div>
+            <div class="comments__item admin">
+               <div class="comments__item-info">
+                  <h4 class="comments__item-title text-big">Администратор</h4>
+                  <p class="comments__item-time text-big">19.10.2021 14:43</p>
+               </div>
+               <div class="comments__item-rate"><img src="img/star-rate.svg" alt=""></div>
+               <p class="comments__item-text subtext-big">Спасибо за Ваш отзыв)</p>
+               <a href="#" class="comments__item-link link">Ответить</a>
+            </div>
+            <div class="comments__item">
+               <div class="comments__item-info">
+                  <h4 class="comments__item-title text-big">Алиса Шакуро</h4>
+                  <p class="comments__item-time text-big">19.10.2021 14:43</p>
+               </div>
+               <div class="comments__item-rate"><img src="img/star-rate.svg" alt=""></div>
+               <p class="comments__item-text subtext-big">Очень все понравилось! Администратор и мастер по лазеру очень внимательны! Впервые мне было совсем не больно! Насадка moveo нечто!
+                  Наконец-то эпиляция может быть безболезненной! Рекомендую!
+                  Роскошно</p>
+               <div class="comments__item-link link">Ответить</div>
+            </div>
+            <div class="comments__item admin">
+               <div class="comments__item-info">
+                  <h4 class="comments__item-title text-big">Администратор</h4>
+                  <p class="comments__item-time text-big">19.10.2021 14:43</p>
+               </div>
+               <div class="comments__item-rate"><img src="img/star-rate.svg" alt=""></div>
+               <p class="comments__item-text subtext-big">Спасибо за Ваш отзыв)</p>
+               <a href="#" class="comments__item-link link">Ответить</a>
+            </div>
+         </div>
+         <div class="comments__content">
+            <a href="#" class="comments__btn btn-light">Показать еще</a>
+         </div>
+      </div>
+   </div>
+</section>
+<div class="modal__wrapper" id="modalComment">
+   <div class="modal">
+      <div class="modal__close"><img src="img/modal-close.svg" alt=""></div>
+      <h2 class="modal__title title-big">Оставить отзыв</h2>
+      <p class="modal__subtitle subtitle-big">о Захарченко Марине Сергеевне</p>
+      <div class="modal__rate">
+         <p class="modal__text text">Оцените работу мастера:</p>
+         <div class="modal__rate-stars">
+            <img src="img/star-rate.svg" alt="">
+         </div>
+      </div>
+      <form action="#" class="modal__form">
+         <input type="text" class="modal__form-input text" placeholder="Имя">
+         <textarea class="modal__form-input modal__form-textarea text" placeholder="Сообщение"></textarea>
+         <button type="submit" class="modal__form-btn btn-bold">Оставить отзыв</button>
+      </form>
+   </div>
+</div>
+	</main>	
+	<footer>
+   <div class="container">
+      <div class="footer">
+         <div class="footer__content">
+            <div class="footer__logo"><img src="img/logo.svg" alt=""></div>
+            <ul class="footer__icons">
+               <li><a href="#" class="footer__icon"><img src="img/instagram.svg" alt=""></a></li>
+               <li><a href="#" class="footer__icon"><img src="img/facebook.svg" alt=""></a></li>
+               <li><a href="#" class="footer__icon"><img src="img/contact-youtube.svg" alt=""></a></li>
+               <li><a href="#" class="footer__icon"><img src="img/telegram.svg" alt=""></a></li>
+            </ul>
+         </div>
+         <div class="footer__menu">
+            <ul class="footer__list">
+               <li><a href="#" class="footer__list-link subtitle">Услуги и цены</a></li>
+               <li><a href="#" class="footer__list-link subtitle">О нас</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Специалисты</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Сертификаты</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Отзывы</a></li>
+            </ul>
+            <ul class="footer__list">
+               <li><a href="#" class="footer__list-link subtitle">Акции</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Статьи</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Франшиза</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Контакты</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Магазин</a></li>
+            </ul>
+         </div>
+         <div class="footer__contact">
+            <div class="footer__contact-content">
+               <h4 class="footer__title text-big">Наши салоны</h4>
+               <div class='footer__select select'>
+                  <select>
+                     <option value='0'>Пн-Вс с 9.00 до 21.00</option>
+                     <option value='1'>Пн-Вс с 9.00 до 21.00</option>
+                     <option value='2'>Пн-Вс с 9.00 до 21.00</option>
+                  </select>
+               </div>
+               <a href="#" class="footer__link link">Заказать звонок</a>
+            </div>
+            <a href="#" class="footer__link link"><img src="img/footer-telegram.svg" alt="">Запись в телеграм-боте</a>
+            <a href="#" class="footer__link link"><img src="img/point.svg" alt="">Онлайн-запись</a>
+         </div>
+         <div class="footer__contact-mob">
+            <a href="#" class="footer__link link"><img src="img/footer-telegram.svg" alt="">Запись в телеграм-боте</a>
+            <a href="#" class="footer__link link"><img src="img/point.svg" alt="">Онлайн-запись</a>
+         </div>
+      </div>
+   </div>
+</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js' integrity='sha512-hNnjFWCqifslGhuZJVHjXdBund00oDV71mBacLyZYVwmuf+Lx+MGgoG04wehsvhp6FvLYfycrES+b1yh24yvhg==' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>

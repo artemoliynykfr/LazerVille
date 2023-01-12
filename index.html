@@ -1,0 +1,2552 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<!-- Meta -->
+		<meta charset='UTF-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta name='apple-mobile-web-app-capable' content='yes'>
+		<meta content='yes' name='apple-touch-fullscreen' />
+		<meta name='apple-mobile-web-app-status-bar-style' content='black'>
+		<meta name='mssmarttagspreventparsing' content='true'>
+		<meta name='yandex-verification' content='38ffc5af88a5d596'>
+		<meta name='google-site-verification' content='8porN1DgQJZZs7RTNJO_O0OTJG6d3swz6xW0bXPfXVc'>
+		<meta name='robots' content='index, follow'>
+		<meta name='author' content='Oliynyk Artem'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Commissioner&family=Inter:wght@300;400;500;600&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+		<!-- CSS -->
+		<link rel='stylesheet' crossorigin='anonymous' href='https://www.unpkg.com/swiper/swiper-bundle.min.css'>
+		<link rel="stylesheet" href="css/style.min.css">
+		<!-- Title -->
+		<title>Лазерная эпиляция без боли!</title>
+	</head>
+
+<body>
+	<header>
+		<nav>
+  <div class="container">
+    <div class="nav">
+      <div class="nav__top">
+        <a href="index.html" class="nav__logo"><img src="img/logo.svg" alt=""></a>
+        <div class="nav__location modal-btn">
+          <img src="img/location.svg" alt="">
+          <p class="nav__top-text link">Украина </p>
+          <img src="img/location-mob.svg" class="nav__location-mobile" alt="">
+        </div>
+        <div class="nav__work">
+          <h4 class="nav__top-text link nav__work-title">Наши салоны</h4>
+          <p class="nav__work-text text-big">Пн-Вс с 9.00 до 21.00</p>
+        </div>
+        <div class="nav__top-link modal-btn link"><img src="img/phone-mob.svg" alt=""><span>Заказать звонок</span> </div>
+        <a href="online.html" class="nav__top-btn btn-bold">Онлайн-запись</a>
+        <div class='nav__top-select select'>
+          <select>
+            <option value='0'>Ru</option>
+            <option value='1'>Ru</option>
+            <option value='2'>Укр</option>
+            <option value='3'>Eng</option>
+          </select>
+        </div>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      <div class="nav__menu">
+        <a href="online.html" class="nav__top-btn btn-bold nav__menu-btn">Онлайн-запись</a>
+        <ul class="nav__menu-list">
+          <li class="nav__list-item subtitle"><a href="pricelist.html">Услуги и цены</a></li>
+          <li class="nav__list-item subtitle"><a href="service.html">О нас</a></li>
+          <li class="nav__list-item subtitle"><a href="specialist.html">Специалисты</a></li>
+          <li class="nav__list-item subtitle"><a href="#">Сертификаты</a></li>
+          <li class="nav__list-item subtitle"><a href="reviews.html">Отзывы</a></li>
+          <li class="nav__list-item subtitle"><a href="discounts.html">Акции</a></li>
+          <li class="nav__list-item subtitle"><a href="#">Статьи</a></li>
+          <li class="nav__list-item subtitle"><a href="gallery.html">Франшиза</a></li>
+          <li class="nav__list-item subtitle"><a href="contact.html">Контакты</a></li>
+          <li class="nav__list-item subtitle"><a href="#">Магазин</a></li>
+        </ul>
+        <div class="nav__menu-lang">
+          <a href="#" class="nav__lang-item subtitle active">Рус</a>
+          <a href="#" class="nav__lang-item subtitle">Укр</a>
+          <a href="#" class="nav__lang-item subtitle">Eng</a>
+          <a href="#" class="nav__lang-item subtitle">Eng</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="modal__wrapper" id="modalNav">
+  <div class="modal">
+    <div class="modal__close"><img src="img/modal-close.svg" alt=""></div>
+    <h2 class="modal__title title-big">Ваше местоположение</h2>
+    <div class="modal__content">
+      <p class="modal__text subtitle">Страна:</p>
+      <div class='modal__select select'>
+         <select>
+            <option value='0'>Украина</option>
+            <option value='1'>Украина</option>
+            <option value='2'>Украина</option>
+         </select>
+      </div>
+    </div>
+    <a href="#" class="modal__btn btn-bold">Сохранить</a>
+  </div>
+</div>
+<div class="modal__wrapper" id="modalTel">
+  <div class="modal">
+    <div class="modal__close"><img src="img/modal-close.svg" alt=""></div>
+    <h2 class="modal__title title-big">Заказать звонок</h2>
+    <form action="#" class="modal__form">
+      <input type="tel" class="modal__form-input text" placeholder="+38 (000) 000 00 00">
+      <button type="submit" class="modal__form-btn btn-bold">Заказать звонок</button>
+    </form>
+  </div>
+</div>
+<div class="modal__wrapper" id="modalRegister">
+  <div class="modal">
+    <div class="modal__close"><img src="img/modal-close.svg" alt=""></div>
+    <h2 class="modal__title title-big">Записаться</h2>
+    <form action="#" class="modal__form">
+      <div class="specialist__location">
+        <img src="img/location-light.svg" alt="">
+        <p class="specialist__location-text text">Локация:</p>
+        <div class='specialist__select select'>
+           <select>
+              <option value='0'>Все салоны</option>
+              <option value='1'>Все салоны</option>
+              <option value='2'>Все салоны</option>
+           </select>
+        </div>
+     </div>
+      <input type="text" class="modal__form-input text" placeholder="Имя">
+      <input type="tel" class="modal__form-input text" placeholder="+38 (000) 000 00 00">
+      <button type="submit" class="modal__form-btn btn-bold">Заказать звонок</button>
+    </form>
+  </div>
+</div>
+      <section class="section section__hero">
+   <div class="container">
+      <div class="hero">
+         <div class="hero__content">
+            <h3 class="hero__subtitle">Лазерная эпиляция без боли!</h3>
+            <h1 class="hero__title">Скидка на первичное посещение – 50%</h1>
+            <a href="#" class="hero__btn btn-bold">Записаться</a>
+         </div>
+         <div class="hero__swiper-container">
+            <div class="hero__swiper main-swiper swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide slide">
+                     <img src="img/hero-swiper-img1.webp" alt="">
+                  </div>
+                  <div class="swiper-slide slide">
+                     <img src="img/hero-swiper-img1.webp" alt="">
+                  </div>
+               </div>
+               <div class="main-swiper-control">
+                  <div class="main-swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                  <div class="hero__swiper-pagination main-swiper-pagination ">1</div>
+                  <div class="main-swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+	</header>
+	<main class="main">
+		<section class="section section__zone">
+   <div class="container">
+      <div class="zone" id="zone">
+         <div class="zone__header">
+            <h2 class="zone__title title">Зоны</h2>
+            <ul class="zone__header-container">
+               <li class="zone__header-item subtitle-big tab-link female active" onclick="openTab(event, 'tabParent-1', 'zone')"><img src="img/female-sign.svg" alt=""><span>Женщины</span> </li>
+               <li class="zone__header-item subtitle-big tab-link male" onclick="openTab(event, 'tabParent-2', 'zone')"><img src="img/male-sign.svg" alt=""><span>Мужчина</span>
+               </li>
+            </ul>
+         </div>
+         <div class="zone__tab tab-item active" id="tabParent-1">
+            <ul class="zone__tab-header">
+               <li class="zone__tab-content subtitle active"><a href="#tabChild-1">Популярные</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-2">Комплексы услуг</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-3">Руки</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-4">Ноги</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-5">Лицо</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-6">Интимные зоны</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-7">Спина и живот</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-8">Грудь</a></li>
+            </ul>
+            <div class="zone__tab-items active">
+               <div class="zone__tab-item active" id="tabChild-1">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-2">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-3">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-4">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-5">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-6">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-7">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-8">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="zone__tab tab-item" id="tabParent-2">
+            <ul class="zone__tab-header">
+               <li class="zone__tab-content subtitle active"><a href="#tabChild-1">Популярные</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-2">Комплексы услуг</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-3">Руки</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-4">Ноги</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-5">Лицо</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-6">Интимные зоны</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-7">Спина и живот</a></li>
+               <li class="zone__tab-content subtitle"><a href="#tabChild-8">Грудь</a></li>
+            </ul>
+            <div class="zone__tab-items active">
+               <div class="zone__tab-item active" id="tabChild-1">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-2">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-3">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-4">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-5">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-6">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-7">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zone__tab-item" id="tabChild-8">
+                  <div class="zone__tab-swiper swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                           <div class="slide__img"><img src="img/zone-spine.webp" alt=""></div>
+                           <div class="slide__content">
+                              <div class="slide__header">
+                                 <h4 class="slide__titlet subtitle-big bold">Спина</h4>
+                                 <div class="slide__time">
+                                    <img src="img/clock.svg" alt="">
+                                    <p class="slide__subtext subtext">30 мин.</p>
+                                 </div>
+                              </div>
+                              <div class="slide__price">
+                                 <p class="slide__text subtitle-big">200 грн.</p>
+                                 <a href="#" class="slide__btn btn-arrow">
+                                    <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__tab-content">
+                     <a href="#" class="zone__tab-btn btn-light">Все цены <img src="img/btn-arrow.svg" alt=""></a>
+                     <div class="swiper-buttons">
+                        <div class="swiper-btn zone-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+                        <div class="swiper-btn zone-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__tech">
+   <div class="container">
+      <div class="tech">
+         <div class="tech__container">
+            <div class="tech__img">
+               <img src="img/tech-img.webp" alt="">
+            </div>
+            <div class="tech__content">
+               <h2 class="tech__title title">Технология Moveo</h2>
+               <p class="tech__text subtext-big">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas nec nam cras orci
+                  vel tristique. Imperdiet cursus semper sit egestas dictum dignissim tempus. Velit blandit nulla
+                  consectetur et nibh lectus in posuere hac. Imperdiet in phasellus venenatis ullamcorper egestas
+                  gravida. Est condimentum suspendisse arcu ornare egestas sit lectus vitae.
+               </p>
+               <p class="tech__text subtext-big">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas nec nam cras orci
+                  vel tristique. Imperdiet cursus semper sit egestas dictum dignissim tempus. Velit blandit nulla
+                  consectetur et nibh lectus in posuere hac. Imperdiet in phasellus venenatis ullamcorper egestas
+                  gravida. Est condimentum suspendisse arcu ornare egestas sit lectus vitae.</p>
+            </div>
+         </div>
+         <div class="tech__swiper swiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide slide">
+                  <div class="slide__img">
+                     <img src="img/tech-item1.svg" alt="">
+                  </div>
+                  <h4 class="slide__titlet subtitle-big bold">Подходит всем</h4>
+                  <p class="slide__text text">Любой оттенок кожи и цвета волос</p>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img">
+                     <img src="img/tech-item2.svg" alt="">
+                  </div>
+                  <h4 class="slide__titlet subtitle-big bold">Можно загорать</h4>
+                  <p class="slide__text text">До и после процедуры</p>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img">
+                     <img src="img/tech-item3.svg" alt="">
+                  </div>
+                  <h4 class="slide__titlet subtitle-big bold">Быстро</h4>
+                  <p class="slide__text text">Обработка большого участка (10х10 см) всего от 10 до 25 секунд</p>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img">
+                     <img src="img/tech-item4.svg" alt="">
+                  </div>
+                  <h4 class="slide__titlet subtitle-big bold">Любая зона</h4>
+                  <p class="slide__text text">Включая самые чувствительные области (бикини, подмышки, верхняя губа)</p>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img">
+                     <img src="img/tech-item5.svg" alt="">
+                  </div>
+                  <h4 class="slide__titlet subtitle-big bold">Не больно</h4>
+                  <p class="slide__text text">Бережное обращение с кожей, без перегрева кожи, без ожогов</p>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img">
+                     <img src="img/tech-item6.svg" alt="">
+                  </div>
+                  <h4 class="slide__titlet subtitle-big bold">Комфортно</h4>
+                  <p class="slide__text text">Приятные тактильные ощущения, благодаря охлаждающей насадке</p>
+               </div>
+            </div>
+            <div class="swiper-buttons">
+               <div class="swiper-btn tech-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn tech-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__compare">
+   <div class="container">
+      <div class="compare">
+         <h2 class="compare__title title">Сравнение лазеров</h2>
+         <table class="compare__table">
+            <thead>
+               <tr>
+                  <th>&nbsp;</th>
+                  <th class="compare__table-title">Moveo</th>
+                  <th class="compare__table-title">Александритовый</th>
+                  <th class="compare__table-title">Диодный</th>
+                  <th class="compare__table-title">Фотоэпиляция</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td class="compare__text text">Ощущения</td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+               </tr>
+               <tr>
+                  <td class="compare__text text">Загар до и после</td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+               </tr>
+               <tr>
+                  <td class="compare__text text">Фитотипы кожи и цвета волос</td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+               </tr>
+               <tr>
+                  <td class="compare__text text">Анастезия</td>
+                  <td class="compare__table-img"><img src="img/cons.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/cons.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/cons.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/cons.svg" alt=""></td>
+               </tr>
+               <tr>
+                  <td class="compare__text text">Фитотипы кожи и цвета волос</td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+                  <td class="compare__table-img"><img src="img/pros.svg" alt=""></td>
+               </tr>
+            </tbody>
+            <tfoot>
+               <tr>
+                  <td></td>
+                  <td><a href="#" class="compare__item-btn btn-bold">Записаться</a></td>
+                  <td><a href="#" class="compare__item-btn btn-bold">Записаться</a></td>
+                  <td><a href="#" class="compare__item-btn btn-bold">Записаться</a></td>
+                  <td><a href="#" class="compare__item-btn btn-bold">Записаться</a></td>
+               </tr>
+            </tfoot>
+         </table>
+         <div class="compare__container">
+            <ul class="compare__header">
+               <li class="compare__table-title active" onclick="openTabCompare(event, 'compareTab-1')">Moveo</li>
+               <li class="compare__table-title" onclick="openTabCompare(event, 'compareTab-2')">Александритовый</li>
+               <li class="compare__table-title" onclick="openTabCompare(event, 'compareTab-3')">Диодный</li>
+               <li class="compare__table-title" onclick="openTabCompare(event, 'compareTab-4')">Фотоэпиляция</li>
+            </ul>
+            <div class="compare__items">
+               <ul class="compare__content">
+                  <li class="compare__text text">Ощущения</li>
+                  <li class="compare__text text">Загар до и после</li>
+                  <li class="compare__text text">Фитотипы кожи и цвета волос</li>
+                  <li class="compare__text text">Анастезия</li>
+                  <li class="compare__text text">Фитотипы кожи и цвета волос</li>
+               </ul>
+               <div class="compare__item active" id="compareTab-1">
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/cons.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <a href="#" class="compare__item-btn btn-bold">Записаться</a>
+               </div>
+               <div class="compare__item" id="compareTab-2">
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/cons.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <a href="#" class="compare__item-btn btn-bold">Записаться</a>
+               </div>
+               <div class="compare__item" id="compareTab-3">
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/cons.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <a href="#" class="compare__item-btn btn-bold">Записаться</a>
+               </div>
+               <div class="compare__item" id="compareTab-4">
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/cons.svg" alt=""></div>
+                  <div class="compare__item-mark"><img src="img/pros.svg" alt=""></div>
+                  <a href="#" class="compare__item-btn btn-bold">Записаться</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__safe">
+   <div class="container">
+      <div class="safe" id="safe">
+         <div class="safe__header">
+            <h2 class="safe__title title">Самая быстрая 
+               и безопасная</h2>
+               <ul class="zone__header-container">
+                  <li class="zone__header-item subtitle-big tab-link female active" onclick="openTab(event, 'tabParent-3', 'safe')"><img src="img/female-sign.svg" alt=""><span>Женщины</span> </li>
+                  <li class="zone__header-item subtitle-big tab-link male" onclick="openTab(event, 'tabParent-4', 'safe')"><img src="img/male-sign.svg" alt=""><span>Мужчина</span>
+                  </li>
+               </ul>
+         </div>
+         <div class="safe__items">
+            <div class="safe__item female tab-item active" id="tabParent-3">
+               <img src="img/safe-female.png" class="safe__item-bg" alt="">
+               <div class="safe__item-container">
+                  <div class="safe__item-icon">
+                     <img src="img/plus.svg" alt="">
+                  </div>
+                  <div class="safe__item-content">
+                     <h4 class="safe__item-title subtitle-big bold">Подмышки</h4>
+                     <div class="safe__item-block">
+                        <div class="safe__item-time">
+                           <img src="img/clock.svg" alt="">
+                           <p class="safe__item-subtext subtext">30 мин.</p>
+                        </div>
+                        <p class="safe__item-price subtitle-big">200 грн.</p>
+                     </div>
+                     <a href="#" class="safe__item-btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="safe__item-container">
+                  <div class="safe__item-icon">
+                     <img src="img/plus.svg" alt="">
+                  </div>
+                  <div class="safe__item-content">
+                     <h4 class="safe__item-title subtitle-big bold">Подмышки</h4>
+                     <div class="safe__item-block">
+                        <div class="safe__item-time">
+                           <img src="img/clock.svg" alt="">
+                           <p class="safe__item-subtext subtext">30 мин.</p>
+                        </div>
+                        <p class="safe__item-price subtitle-big">200 грн.</p>
+                     </div>
+                     <a href="#" class="safe__item-btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="safe__item-container">
+                  <div class="safe__item-icon">
+                     <img src="img/plus.svg" alt="">
+                  </div>
+                  <div class="safe__item-content">
+                     <h4 class="safe__item-title subtitle-big bold">Подмышки</h4>
+                     <div class="safe__item-block">
+                        <div class="safe__item-time">
+                           <img src="img/clock.svg" alt="">
+                           <p class="safe__item-subtext subtext">30 мин.</p>
+                        </div>
+                        <p class="safe__item-price subtitle-big">200 грн.</p>
+                     </div>
+                     <a href="#" class="safe__item-btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="safe__item male tab-item" id="tabParent-4">
+               <img src="img/safe-male.png" class="safe__item-bg" alt="">
+               <div class="safe__item-container">
+                  <div class="safe__item-icon">
+                     <img src="img/plus.svg" alt="">
+                  </div>
+                  <div class="safe__item-content">
+                     <h4 class="safe__item-title subtitle-big bold">Подмышки</h4>
+                     <div class="safe__item-block">
+                        <div class="safe__item-time">
+                           <img src="img/clock.svg" alt="">
+                           <p class="safe__item-subtext subtext">30 мин.</p>
+                        </div>
+                        <p class="safe__item-price subtitle-big">200 грн.</p>
+                     </div>
+                     <a href="#" class="safe__item-btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="safe__item-container">
+                  <div class="safe__item-icon">
+                     <img src="img/plus.svg" alt="">
+                  </div>
+                  <div class="safe__item-content">
+                     <h4 class="safe__item-title subtitle-big bold">Подмышки</h4>
+                     <div class="safe__item-block">
+                        <div class="safe__item-time">
+                           <img src="img/clock.svg" alt="">
+                           <p class="safe__item-subtext subtext">30 мин.</p>
+                        </div>
+                        <p class="safe__item-price subtitle-big">200 грн.</p>
+                     </div>
+                     <a href="#" class="safe__item-btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="safe__item-container">
+                  <div class="safe__item-icon">
+                     <img src="img/plus.svg" alt="">
+                  </div>
+                  <div class="safe__item-content">
+                     <h4 class="safe__item-title subtitle-big bold">Подмышки</h4>
+                     <div class="safe__item-block">
+                        <div class="safe__item-time">
+                           <img src="img/clock.svg" alt="">
+                           <p class="safe__item-subtext subtext">30 мин.</p>
+                        </div>
+                        <p class="safe__item-price subtitle-big">200 грн.</p>
+                     </div>
+                     <a href="#" class="safe__item-btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__discount">
+   <div class="container">
+      <div class="discount">
+         <h2 class="discount__title">Скидка на первичное посещение – 50%</h2>
+         <form action="#" class="discount__form">
+            <input type="text" class="discount__form-input text" placeholder="Имя">
+            <input type="tel" class="discount__form-input text" placeholder="+38 (000) 000 00 00">
+            <button type="submit" class="discount__form-btn btn-bold">Записаться</button>
+         </form>
+      </div>
+   </div>
+</section>
+		<section class="section section__award">
+   <div class="container">
+      <div class="award">
+         <div class="award__content">
+            <h2 class="award__title title">Мы получили награду – 
+               “Вибір споживача 2020”</h2>
+            <p class="award__text text-big">Друзья, с радостью сообщаем вам, что сеть салонов лазерной эпиляции LaserVille получила национальную награду и сертификат «Вибір споживача 2020» от Всеукраинского отраслево-аналитического центра.</p>
+            <p class="award__text text-big">«Вибір споживача 2020» показывает клиентам и партнерам, что наши услуги являются: надежными, качественными и приоритетными для выбора. Что наши клиенты удовлетворены сервисом и рекомендуют компанию LaserVille свом друзьям.</p>
+            <p class="award__text text-big"> Мы рады, что вы цените работу нашей сети, именно благодаря вам мы растем, совершенствуемся и идем вперед, а награда мотивирует и заряжает нас энергией на новые победы.</p>
+            <p class="award__text text-big">Спасибо всем кто нас выбрал и разделяет с нами это приятное событие!</p>
+         </div>
+         <div class="award__swiper main-swiper swiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide slide">
+                  <img src="img/award-img.webp" alt="">
+               </div>
+               <div class="swiper-slide slide">
+                  <img src="img/award-img.webp" alt="">
+               </div>
+            </div>
+            <div class="main-swiper-control">
+               <div class="main-swiper-btn swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="main-swiper-pagination ">1</div>
+               <div class="main-swiper-btn swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__specialist">
+   <div class="container">
+      <div class="specialist">
+         <h2 class="specialist__title title">Наши специалисты</h2>
+         <div class="specialist__swiper swiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide slide">
+                  <div class="slide__img"><img src="img/specialist-img.webp" alt=""></div>
+                  <div class="slide__content">
+                     <h4 class="slide__title subtitle-big bold">Захарченко Марина</h4>
+                     <div class="slide__location">
+                        <img src="img/location-light.svg" alt="">
+                        <div class="slide__location-content">
+                           <p class="slide__text text"><span>Украина, Киев </span>ул. Вадима Гетьмана, 30 </p>
+                        </div>
+                     </div>
+                     <div class="slide__rate">
+                        <div class="slide__rate-stars">
+                           <img src="img/star-rate.svg" alt="">
+                        </div>
+                        <p class="slide__subtext text-big">5 отзывов</p>
+                     </div>
+                     <a href="#" class="slide__btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img"><img src="img/specialist-img.webp" alt=""></div>
+                  <div class="slide__content">
+                     <h4 class="slide__title subtitle-big bold">Захарченко Марина</h4>
+                     <div class="slide__location">
+                        <img src="img/location-light.svg" alt="">
+                        <div class="slide__location-content">
+                           <p class="slide__text text"><span>Украина, Киев </span><br>ул. Вадима Гетьмана, 30 </p>
+                        </div>
+                     </div>
+                     <div class="slide__rate">
+                        <div class="slide__rate-stars">
+                           <img src="img/star-rate.svg" alt="">
+                        </div>
+                        <p class="slide__subtext text-big">5 отзывов</p>
+                     </div>
+                     <a href="#" class="slide__btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img"><img src="img/specialist-img.webp" alt=""></div>
+                  <div class="slide__content">
+                     <h4 class="slide__title subtitle-big bold">Захарченко Марина</h4>
+                     <div class="slide__location">
+                        <img src="img/location-light.svg" alt="">
+                        <div class="slide__location-content">
+                           <p class="slide__text text"><span>Украина, Киев </span><br>ул. Вадима Гетьмана, 30 </p>
+                        </div>
+                     </div>
+                     <div class="slide__rate">
+                        <p class="slide__subtext text-big">5 отзывов</p>
+                     </div>
+                     <a href="#" class="slide__btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img"><img src="img/specialist-img.webp" alt=""></div>
+                  <div class="slide__content">
+                     <h4 class="slide__title subtitle-big bold">Захарченко Марина</h4>
+                     <div class="slide__location">
+                        <img src="img/location-light.svg" alt="">
+                        <div class="slide__location-content">
+                           <p class="slide__text text"><span>Украина, Киев </span><br>ул. Вадима Гетьмана, 30 </p>
+                        </div>
+                     </div>
+                     <div class="slide__rate">
+                        <p class="slide__subtext text-big">5 отзывов</p>
+                     </div>
+                     <a href="#" class="slide__btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img"><img src="img/specialist-img.webp" alt=""></div>
+                  <div class="slide__content">
+                     <h4 class="slide__title subtitle-big bold">Захарченко Марина</h4>
+                     <div class="slide__location">
+                        <img src="img/location-light.svg" alt="">
+                        <div class="slide__location-content">
+                           <p class="slide__text text"><span>Украина, Киев </span><br>ул. Вадима Гетьмана, 30 </p>
+                        </div>
+                     </div>
+                     <div class="slide__rate">
+                        <div class="slide__rate-stars">
+                           <img src="img/star-rate.svg" alt="">
+                        </div>
+                        <p class="slide__subtext text-big">5 отзывов</p>
+                     </div>
+                     <a href="#" class="slide__btn btn-arrow">
+                        <p class="btn-arrow-text">Записаться</p><img src="img/btn-arrow.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="specialist__content">
+            <a href="#" class="specialist__btn btn-light">Все специалисты <img src="img/btn-arrow.svg" alt=""></a>
+            <div class="swiper-buttons">
+               <div class="swiper-btn specialist-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn specialist-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__reviews">
+   <div class="reviews">
+      <div class="reviews__item">
+         <div class="reviews__header container">
+            <div class="reviews__header-title">
+               <img src="img/google.svg" alt="">
+               <h2 class="reviews__title title">Google отзывы</h2>
+            </div>
+            <div class="swiper-buttons">
+               <div class="swiper-btn reviews-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn reviews-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+            </div>
+         </div>
+         <div class="reviews__swiper reviews__swiper-google swiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide slide">
+                  <h4 class="slide__title text">Алиса Шакуро</h4>
+                  <div class="slide__rate">
+                     <img src="img/star-rate.svg" alt="">
+                  </div>
+                  <p class="slide__text subtitle">Это был лучший мой выбор. До LaserVille терпела жуткую боль и результат
+                     полностью не устраивал. После первой процедуры в LaserVille увидела очень хороший результат,
+                     абсолютное отсутсвие болевых ощущений, внимательную и доброжелательную команду. Спасибо за вашу
+                     работу, вы ❤️</p>
+                  <div class="slide__location">
+                     <img src="img/location-light.svg" alt="">
+                     <p class="slide__location-text text-big">ул. Вадима Гетьмана, 30, Київ, 03058</p>
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <h4 class="slide__title text">Алиса Шакуро</h4>
+                  <div class="slide__rate">
+                     <img src="img/star-rate.svg" alt="">
+                  </div>
+                  <p class="slide__text subtitle">Это был лучший мой выбор. До LaserVille терпела жуткую боль и результат
+                     полностью не устраивал. После первой процедуры в LaserVille увидела очень хороший результат,
+                     абсолютное отсутсвие болевых ощущений, внимательную и доброжелательную команду. Спасибо за вашу
+                     работу, вы ❤️</p>
+                  <div class="slide__location">
+                     <img src="img/location-light.svg" alt="">
+                     <p class="slide__location-text text-big">ул. Вадима Гетьмана, 30, Київ, 03058</p>
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <h4 class="slide__title text">Алиса Шакуро</h4>
+                  <div class="slide__rate">
+                     <img src="img/star-rate.svg" alt="">
+                  </div>
+                  <p class="slide__text subtitle">Это был лучший мой выбор. До LaserVille терпела жуткую боль и результат
+                     полностью не устраивал. После первой процедуры в LaserVille увидела очень хороший результат,
+                     абсолютное отсутсвие болевых ощущений, внимательную и доброжелательную команду. Спасибо за вашу
+                     работу, вы ❤️</p>
+                  <div class="slide__location">
+                     <img src="img/location-light.svg" alt="">
+                     <p class="slide__location-text text-big">ул. Вадима Гетьмана, 30, Київ, 03058</p>
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <h4 class="slide__title text">Алиса Шакуро</h4>
+                  <div class="slide__rate">
+                     <img src="img/star-rate.svg" alt="">
+                  </div>
+                  <p class="slide__text subtitle">Это был лучший мой выбор. До LaserVille терпела жуткую боль и результат
+                     полностью не устраивал. После первой процедуры в LaserVille увидела очень хороший результат,
+                     абсолютное отсутсвие болевых ощущений, внимательную и доброжелательную команду. Спасибо за вашу
+                     работу, вы ❤️</p>
+                  <div class="slide__location">
+                     <img src="img/location-light.svg" alt="">
+                     <p class="slide__location-text text-big">ул. Вадима Гетьмана, 30, Київ, 03058</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="reviews__item">
+         <div class="reviews__header container">
+            <div class="reviews__header-title">
+               <img src="img/youtube.svg" alt="">
+               <h2 class="reviews__title title">Видео отзывы</h2>
+            </div>
+            <div class="swiper-buttons">
+               <div class="swiper-btn reviews-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn reviews-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+            </div>
+         </div>
+         <div class="reviews__swiper reviews__swiper-youtube swiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide slide">
+                  <img src="img/video-swiper-img.webp" alt="">
+                  <a href="#" class="slide__content subtitle-big">
+                     <img src="img/youtube.svg" alt="">
+                     Смотреть отзыв
+                  </a>
+               </div>
+               <div class="swiper-slide slide">
+                  <img src="img/video-swiper-img.webp" alt="">
+                  <a href="#" class="slide__content subtitle-big">
+                     <img src="img/youtube.svg" alt="">
+                     Смотреть отзыв
+                  </a>
+               </div>
+               <div class="swiper-slide slide">
+                  <img src="img/video-swiper-img.webp" alt="">
+                  <a href="#" class="slide__content subtitle-big">
+                     <img src="img/youtube.svg" alt="">
+                     Смотреть отзыв
+                  </a>
+               </div>
+               <div class="swiper-slide slide">
+                  <img src="img/video-swiper-img.webp" alt="">
+                  <a href="#" class="slide__content subtitle-big">
+                     <img src="img/youtube.svg" alt="">
+                     Смотреть отзыв
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="reviews__content container">
+         <a href="#" class="reviews__btn btn-light">Все отзывы <img src="img/btn-arrow.svg" alt=""></a>
+      </div>
+   </div>
+</section>
+		<section class="section section__gallery">
+   <div class="container">
+      <div class="gallery">
+         <div class="gallery__img">
+            <img src="img/gallery-img.webp" alt="">
+         </div>
+         <div class="gallery__content">
+            <h2 class="gallery__title title">Галлерея</h2>
+            <p class="gallery__text subtitle-small">Фото до и после лазерной эпиляции</p>
+            <a href="#" class="gallery__btn btn-light">Все отзывы <img src="img/btn-arrow.svg" alt=""></a>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__discount">
+   <div class="container">
+      <div class="discount">
+         <h2 class="discount__title">Скидка на первичное посещение – 50%</h2>
+         <form action="#" class="discount__form">
+            <input type="text" class="discount__form-input text" placeholder="Имя">
+            <input type="tel" class="discount__form-input text" placeholder="+38 (000) 000 00 00">
+            <button type="submit" class="discount__form-btn btn-bold">Записаться</button>
+         </form>
+      </div>
+   </div>
+</section>
+		<section class="section section__stocks">
+   <div class="container">
+      <div class="stocks">
+         <h2 class="stocks__title title">Акции</h2>
+         <div class="stocks__swiper swiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide slide">
+                  <div class="slide__img">
+                     <img src="img/stocks-swiper-img.webp" alt="">
+                  </div>
+                  <div class="slide__content">
+                     <h4 class="slide__title subtitle-small">Скидка на первичное посещение – 50%</h4>
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img">
+                     <img src="img/stocks-swiper-img.webp" alt="">
+                  </div>
+                  <div class="slide__content">
+                     <h4 class="slide__title subtitle-small">Скидка на первичное посещение – 50%</h4>
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="slide__img">
+                     <img src="img/stocks-swiper-img.webp" alt="">
+                  </div>
+                  <div class="slide__content">
+                     <h4 class="slide__title subtitle-small">Скидка на первичное посещение – 50%</h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="stocks__content">
+            <a href="#" class="stocks__btn btn-light">Все акции <img src="img/btn-arrow.svg" alt=""></a>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-buttons">
+               <div class="swiper-btn stocks-swiper-prev"><img src="img/swiper-left-arrow.svg" alt=""></div>
+               <div class="swiper-btn stocks-swiper-next"><img src="img/swiper-right-arrow.svg" alt=""></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__questions">
+   <div class="container">
+      <div class="questions">
+         <h2 class="questions__title title">Часто задаваемые вопросы</h2>
+         <div class="questions__accordion accordion">
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="accordion__header-title subtitle">Что такое лазерная эпиляция в динамике?</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content text-big">Лазерная эпиляция проводится на аппарате MOTUS AX при помощи сапфирового наконечника, который охлаждается до 15 градусов. Данная технология способствует безболезненному процессу и кожа не прогревается, и не повреждается. Эпиляция проводится в движении, энергия лазера проникает прямо в волосяную луковицу, поэтапно нагревает ее и разрушает. Сам процесс обработки одной зоны – 10 х 10см занимает от 10-25 секунд.</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__contact">
+   <div class="container">
+      <div class="contact">
+         <div class="contact__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.574500037732!2d30.601383951486312!3d50.467647693905604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d01f0207aa69%3A0x6e2f9339c55bb39a!2z0YPQuy4g0JLQvtGB0LrRgNC10YHQtdC90YHQutCw0Y8sIDEy0JEsINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1665577015135!5m2!1sru!2sua" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+         <div class="contact__content">
+            <h2 class="contact__title title">Контакты</h2>
+            <div class="contact__info contact__text text"><img src="img/calendar.svg" alt="">Пн-Вс с 9.00 до 21.00</div>
+            <div class="contact__content-block">
+               <div class="contact__info contact__text text"><img src="img/email.svg" alt="">info@laserville.com.ua
+               </div>
+               <ul class="contact__icons">
+                  <li><a href="#" class="contact__icon"><img src="img/instagram.svg" alt=""></a></li>
+                  <li><a href="#" class="contact__icon"><img src="img/facebook.svg" alt=""></a></li>
+                  <li><a href="#" class="contact__icon"><img src="img/contact-youtube.svg" alt=""></a></li>
+               </ul>
+            </div>
+            <div class="contact__items">
+               <div class="contact__item active">
+                  <div class="contact__item-location">
+                     <p class="contact__item-text contact__text text">Киев </p>
+                     <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                  </div>
+                  <div class="contact__item-metro">
+                     <img src="img/metro-red.svg" alt="">
+                     <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                  </div>
+                  <p class="contact__item-subtext  text-big">050 756 36 02</p>
+               </div>
+               <div class="contact__item">
+                  <div class="contact__item-location">
+                     <p class="contact__item-text contact__text text">Киев </p>
+                     <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                  </div>
+                  <div class="contact__item-metro">
+                     <img src="img/metro-red.svg" alt="">
+                     <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                  </div>
+                  <p class="contact__item-subtext  text-big">050 756 36 02</p>
+               </div>
+               <div class="contact__item">
+                  <div class="contact__item-location">
+                     <p class="contact__item-text contact__text text">Киев </p>
+                     <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                  </div>
+                  <div class="contact__item-metro">
+                     <img src="img/metro-red.svg" alt="">
+                     <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                  </div>
+                  <p class="contact__item-subtext  text-big">050 756 36 02</p>
+               </div>
+               <div class="contact__item">
+                  <div class="contact__item-location">
+                     <p class="contact__item-text contact__text text">Киев </p>
+                     <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                  </div>
+                  <div class="contact__item-metro">
+                     <img src="img/metro-red.svg" alt="">
+                     <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                  </div>
+                  <p class="contact__item-subtext  text-big">050 756 36 02</p>
+               </div>
+               <div class="contact__item">
+                  <div class="contact__item-location">
+                     <p class="contact__item-text contact__text text">Киев </p>
+                     <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                  </div>
+                  <div class="contact__item-metro">
+                     <img src="img/metro-red.svg" alt="">
+                     <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                  </div>
+                  <p class="contact__item-subtext  text-big">050 756 36 02</p>
+               </div>
+               <div class="contact__item">
+                  <div class="contact__item-location">
+                     <p class="contact__item-text contact__text text">Киев </p>
+                     <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                  </div>
+                  <div class="contact__item-metro">
+                     <img src="img/metro-red.svg" alt="">
+                     <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                  </div>
+                  <p class="contact__item-subtext  text-big">050 756 36 02</p>
+               </div>
+               <div class="contact__item">
+                  <div class="contact__item-location">
+                     <p class="contact__item-text contact__text text">Киев </p>
+                     <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                  </div>
+                  <div class="contact__item-metro">
+                     <img src="img/metro-red.svg" alt="">
+                     <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                  </div>
+                  <p class="contact__item-subtext  text-big">050 756 36 02</p>
+               </div>
+            </div>
+         </div>
+         <div class="contact__accordion accordion">
+            <div class="accordion__item">
+               <div class="accordion__header">
+                  <p class="contact__text text">Список салонов</p>
+                  <div class="accordion__header-icon"></div>
+               </div>
+               <div class="accordion__content">
+                  <div class="contact__items">
+                     <div class="contact__item active">
+                        <div class="contact__item-location">
+                           <p class="contact__item-text contact__text text">Киев </p>
+                           <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                        </div>
+                        <div class="contact__item-metro">
+                           <img src="img/metro-red.svg" alt="">
+                           <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                        </div>
+                        <p class="contact__item-subtext  text-big">050 756 36 02</p>
+                     </div>
+                     <div class="contact__item">
+                        <div class="contact__item-location">
+                           <p class="contact__item-text contact__text text">Киев </p>
+                           <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                        </div>
+                        <div class="contact__item-metro">
+                           <img src="img/metro-red.svg" alt="">
+                           <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                        </div>
+                        <p class="contact__item-subtext  text-big">050 756 36 02</p>
+                     </div>
+                     <div class="contact__item">
+                        <div class="contact__item-location">
+                           <p class="contact__item-text contact__text text">Киев </p>
+                           <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                        </div>
+                        <div class="contact__item-metro">
+                           <img src="img/metro-red.svg" alt="">
+                           <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                        </div>
+                        <p class="contact__item-subtext  text-big">050 756 36 02</p>
+                     </div>
+                     <div class="contact__item">
+                        <div class="contact__item-location">
+                           <p class="contact__item-text contact__text text">Киев </p>
+                           <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                        </div>
+                        <div class="contact__item-metro">
+                           <img src="img/metro-red.svg" alt="">
+                           <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                        </div>
+                        <p class="contact__item-subtext  text-big">050 756 36 02</p>
+                     </div>
+                     <div class="contact__item">
+                        <div class="contact__item-location">
+                           <p class="contact__item-text contact__text text">Киев </p>
+                           <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                        </div>
+                        <div class="contact__item-metro">
+                           <img src="img/metro-red.svg" alt="">
+                           <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                        </div>
+                        <p class="contact__item-subtext  text-big">050 756 36 02</p>
+                     </div>
+                     <div class="contact__item">
+                        <div class="contact__item-location">
+                           <p class="contact__item-text contact__text text">Киев </p>
+                           <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                        </div>
+                        <div class="contact__item-metro">
+                           <img src="img/metro-red.svg" alt="">
+                           <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                        </div>
+                        <p class="contact__item-subtext  text-big">050 756 36 02</p>
+                     </div>
+                     <div class="contact__item">
+                        <div class="contact__item-location">
+                           <p class="contact__item-text contact__text text">Киев </p>
+                           <p class="contact__item-text contact__text text">ул. Воскресенская 12Б</p>
+                        </div>
+                        <div class="contact__item-metro">
+                           <img src="img/metro-red.svg" alt="">
+                           <p class="contact__item-subtext  text-big contact__metro-text">Левобережная, Дарница</p>
+                        </div>
+                        <p class="contact__item-subtext  text-big">050 756 36 02</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+		<section class="section section__discount">
+   <div class="container">
+      <div class="discount">
+         <h2 class="discount__title">Скидка на первичное посещение – 50%</h2>
+         <form action="#" class="discount__form">
+            <input type="text" class="discount__form-input text" placeholder="Имя">
+            <input type="tel" class="discount__form-input text" placeholder="+38 (000) 000 00 00">
+            <button type="submit" class="discount__form-btn btn-bold">Записаться</button>
+         </form>
+      </div>
+   </div>
+</section>
+		<section class="section section__about">
+   <div class="container">
+      <div class="about">
+         <h2 class="about__title title">Сео текст</h2>
+         <p class="about__text text-big">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas nec nam cras orci vel tristique. Imperdiet cursus semper sit egestas dictum dignissim tempus. Velit blandit nulla consectetur et nibh lectus in posuere hac. Imperdiet in phasellus venenatis ullamcorper egestas gravida. Est condimentum suspendisse arcu ornare egestas sit lectus vitae.
+            </p>
+         <p class="about__text text-big">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas nec nam cras orci vel tristique. Imperdiet cursus semper sit egestas dictum dignissim tempus. Velit blandit nulla consectetur et nibh lectus in posuere hac. Imperdiet in phasellus venenatis ullamcorper egestas gravida. Est condimentum suspendisse arcu ornare egestas sit lectus vitae.</p>
+      </div>
+   </div>
+</section>
+	</main>	
+	<footer>
+   <div class="container">
+      <div class="footer">
+         <div class="footer__content">
+            <div class="footer__logo"><img src="img/logo.svg" alt=""></div>
+            <ul class="footer__icons">
+               <li><a href="#" class="footer__icon"><img src="img/instagram.svg" alt=""></a></li>
+               <li><a href="#" class="footer__icon"><img src="img/facebook.svg" alt=""></a></li>
+               <li><a href="#" class="footer__icon"><img src="img/contact-youtube.svg" alt=""></a></li>
+               <li><a href="#" class="footer__icon"><img src="img/telegram.svg" alt=""></a></li>
+            </ul>
+         </div>
+         <div class="footer__menu">
+            <ul class="footer__list">
+               <li><a href="#" class="footer__list-link subtitle">Услуги и цены</a></li>
+               <li><a href="#" class="footer__list-link subtitle">О нас</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Специалисты</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Сертификаты</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Отзывы</a></li>
+            </ul>
+            <ul class="footer__list">
+               <li><a href="#" class="footer__list-link subtitle">Акции</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Статьи</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Франшиза</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Контакты</a></li>
+               <li><a href="#" class="footer__list-link subtitle">Магазин</a></li>
+            </ul>
+         </div>
+         <div class="footer__contact">
+            <div class="footer__contact-content">
+               <h4 class="footer__title text-big">Наши салоны</h4>
+               <div class='footer__select select'>
+                  <select>
+                     <option value='0'>Пн-Вс с 9.00 до 21.00</option>
+                     <option value='1'>Пн-Вс с 9.00 до 21.00</option>
+                     <option value='2'>Пн-Вс с 9.00 до 21.00</option>
+                  </select>
+               </div>
+               <a href="#" class="footer__link link">Заказать звонок</a>
+            </div>
+            <a href="#" class="footer__link link"><img src="img/footer-telegram.svg" alt="">Запись в телеграм-боте</a>
+            <a href="#" class="footer__link link"><img src="img/point.svg" alt="">Онлайн-запись</a>
+         </div>
+         <div class="footer__contact-mob">
+            <a href="#" class="footer__link link"><img src="img/footer-telegram.svg" alt="">Запись в телеграм-боте</a>
+            <a href="#" class="footer__link link"><img src="img/point.svg" alt="">Онлайн-запись</a>
+         </div>
+      </div>
+   </div>
+</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js' integrity='sha512-hNnjFWCqifslGhuZJVHjXdBund00oDV71mBacLyZYVwmuf+Lx+MGgoG04wehsvhp6FvLYfycrES+b1yh24yvhg==' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
